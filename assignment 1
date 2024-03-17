@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner's Biography - UOH Sugarland Cafeteria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Specials</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bio">
+            <div class="container">
+                <h1>Meet the Owner</h1>
+                <div class="owner-info">
+                    <img src="images/owner_headshot.jpg" alt="Owner's Headshot">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rhoncus aliquam justo, non finibus arcu. Integer mattis, sem vel ullamcorper tempus, nisi orci cursus nisi, in convallis dolor neque ut quam. Morbi euismod sit amet ante nec varius. Ut pharetra ligula id purus fringilla, et ultricies justo volutpat. Sed consequat vehicula lacinia.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 UOH Sugarland Cafeteria. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
