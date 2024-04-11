@@ -1,0 +1,69 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting up basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #4CAF50; /* Green */
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.bio {
+  text-align: center;
+}
+
+.owner-info {
+  margin-top: 20px;
+}
+
+.owner-info img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #4CAF50; /* Green */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
