@@ -1,1 +1,29 @@
-https://share.icloud.com/photos/014b3aivgz8oglZdWKFqlAqVQ
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Image with JavaScript</title>
+</head>
+<body>
+    <!-- Placeholder for the image -->
+    <div id="imageContainer"></div>
+
+    <script>
+        
+        var img = document.createElement('img');
+
+    
+        img.src = 'https://share.icloud.com/photos/014b3aivgz8oglZdWKFqlAqVQ.jpg';
+    
+        img.alt = 'Owner'; 
+        img.width = 200; 
+        img.height = 150; 
+
+        // Get the container where you want to insert the image
+        var container = document.getElementById('imageContainer');
+
+        container.appendChild(img);
+    </script>
+</body>
+</html>
